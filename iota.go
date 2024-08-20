@@ -26,12 +26,12 @@ func main() {
 
 func iota2Exponential() {
 	const (
-		A = 2 << iota
-		B
-		C
-		D
-		E
-		F
+		A = 2 << iota // = 2 << 0 = 2
+		B             // = 2 << 1 = 4
+		C             // = 2 << 2 = 8
+		D             // = 2 << 3 = 16
+		E             // = 2 << 4 = 32
+		F             // = 2 << 5 = 64
 	)
 
 	fmt.Println(A, B, C, D, E, F)
